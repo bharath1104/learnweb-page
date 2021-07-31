@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <img src="image.png" alt="menu" class="logo" onclick="togglemenu()">
+    <header>
+        <nav>
+            <ul id="menulist">
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">HTML</a></li>
+                <li><a href="#section3">CSS</a></li>
+                <li><a href="#section4">JavaScript</a></li>
+                <li><a href="#section5">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="section1">
+        <h1 class="center-1">Learn <span>Web-Design</span></h1>
+    </section>
+
+
+    <section id="section2" class="bg-light">
+        <h2 class="center">HTML</h2>
+        <div class="split">
+            <div>
+                
+                <p>
+                    The HyperText Markup Language, or HTML is the standard markup language for documents designed to be
+                    displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and
+                    scripting languages such as JavaScript.
+                </p>
+                <p>HTML is the language for describing the structure of Web pages. HTML gives authors the means to:
+                    Publish online documents with headings, text, tables, lists, photos, etc. Retrieve online
+                    information via hypertext links, at the click of a button.</p>
+
+            </div>
+            <div>
+                <!--<button>Learn More</button>-->
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section3" class="bg-dark">
+        <h2 class="center">CSS </h2>
+        <div class="split">
+            <div>
+                
+                <p>CSS (Cascading Style Sheets) are two of the core
+                    technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and
+                    aural) layout, for a variety of devices..</p>
+                <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and
+                    fonts.[3] This separation can improve content accessibility, provide more flexibility and control in
+                    the specification of presentation characteristics, enable multiple web pages to share formatting by
+                    specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the
+                    structural content as well as enabling the .css file to be cached to improve the page load speed
+                    between the pages that share the file and its formatting.</p>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+    <section id="section4" class="bg-primary">
+        <h2 class="center">JavaScript</h2>
+        <div class="split">
+            <div>
+                <p>What is JavaScript?
+                    Last year, millions of learners from our community started with JavaScript. Why? JavaScript is primarily known as the language of most modern web browsers, and its early quirks gave it a bit of a bad reputation. However, the language has continued to evolve and improve. JavaScript is a powerful, flexible, and fast programming language now being used for increasingly complex web development and beyond!
+                    
+                    Since JavaScript remains at the core of web development, it’s often the first language learned by self-taught coders eager to learn and build. We’re excited for what you’ll be able to create with the JavaScript foundation you gain here. JavaScript powers the dynamic behavior on most websites, including this one.
+                    
+                    In this lesson, you will learn introductory coding concepts including data types and built-in objects—essential knowledge for all aspiring developers. Make sure to take notes and pace yourself. This foundation will set you up for understanding the more complex concepts you’ll encounter later.
+                    
+                    
+                    
+                  </p>
+                
+        </div>
+    </section>
+
+
+    <footer id="section5">
+        <img src="web.png" alt="logo-1"class="img">
+        <h2 class="head">BharathVarma</h2>
+        <div class="font">
+          <h4>Front-End Developer</h4>
+          <h4>Dev Technology</h4>
+          <h4>NewYork Manhanntan <br>Times Squares  (USA)</h4>
+          <h4> ph : +630-870-9879</h4>
+    </div>
+    </footer>
+
+    <script>
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "130px";
+            }
+            else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
+
+
+
